@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="BankAccount">
+      <UniqueIdentifier>{4c01f9fa-f84e-4c44-9966-3143d5ebfe87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SavingsAccount">
+      <UniqueIdentifier>{55115989-8c0d-468b-9e66-fb065af78298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheckingAccount">
+      <UniqueIdentifier>{569dbb2f-720d-4478-8424-15ce1e1ef0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SavingsAccount\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SavingsAccount\Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bank Account.cpp">
+      <Filter>SavingsAccount\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BankAccount.cpp">
+      <Filter>BankAccount</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckingAccount.cpp">
+      <Filter>CheckingAccount</Filter>
+    </ClCompile>
+    <ClCompile Include="SavingsAccount.cpp">
+      <Filter>SavingsAccount</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BankAccount.h">
+      <Filter>BankAccount</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckingAccount.h">
+      <Filter>CheckingAccount</Filter>
+    </ClInclude>
+    <ClInclude Include="SavingsAccount.h">
+      <Filter>SavingsAccount\Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

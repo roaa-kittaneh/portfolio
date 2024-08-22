@@ -1,0 +1,38 @@
+@media (max-width:991px){
+    .nav-item{
+        width:fit-content;
+    }
+}
+@media (max-width:768px){
+    .about .count{
+        border:none !important;
+    }
+    .down-resume .brand{
+       justify-content: center !important;
+
+    }
+    .down-resume .down{
+        text-align: center;
+        margin-bottom: 2rem;
+
+    }
+
+}
+ @media (max-width:568){
+    header{
+        background-position-x: -235px;
+    }
+    .header-content{
+        align-items: start !important;
+
+    }
+    h1{
+        font-size: 45px;
+    }
+    
+    .contact p, .contact form{
+        width: 100% !important;
+    }
+    }
+    
+ 
